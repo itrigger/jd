@@ -1,0 +1,8 @@
+.header-logo-wrap__logo {
+  display: block;
+  background: url("../images/svg/logo.svg") 0 0 no-repeat;
+  background-size: contain;
+  width: 171px;
+  height: 79px; }
+
+/*# sourceMappingURL=screen.css.map */
