@@ -1,2 +1,10 @@
 @import '_header';
 
+body *{
+  box-sizing: border-box;
+}
+.in{
+  width: 100%;
+  max-width: 1546px;
+  padding: 0 40px;
+}

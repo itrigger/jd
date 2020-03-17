@@ -32,33 +32,45 @@ wp_body_open();
 ?>
 
 <header id="site-header" class="site-header">
-    <div class="site-header_line1">
-        <div class="header-logo-wrap">
-            <a href="/" class="header-logo-wrap__logo"></a>
-        </div>
-        <div class="header-slogan">
-            опыт. ответственность. оперативность
-        </div>
-
-        <div class="header-contact-wrap">
-            <div class="tel"><a href="tel:+74953692133">+7 495 369 21 33</a></div>
-            <div class="mail"><a href="mailto:info@rvgn.ru">info@rvgn.ru</a></div>
-            <div class="header-contact-wrap__btn-w">
-                <a href="#" class="btn btn-solid">Заказать звонок</a>
-                <a href="#" class="btn btn-alpha">Задать вопрос</a>
+    <div class="in">
+        <div class="site-header_line1">
+            <div class="header-logo-wrap">
+                <a href="/" class="header-logo-wrap__logo"></a>
+            </div>
+            <div class="header-slogan">
+                опыт. ответственность. оперативность
+            </div>
+            <div class="header-contact-wrap">
+                <div class="tel"><a href="tel:+74953692133">+7 495 369 21 33</a></div>
+                <div class="mail"><a href="mailto:info@rvgn.ru">info@rvgn.ru</a></div>
+                <div class="header-contact-wrap__btn-w">
+                    <a href="#" class="btn btn-solid">Заказать звонок</a>
+                    <a href="#" class="btn btn-alpha">Задать вопрос</a>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="site-header_line2">
-        <div class="menu-top">
-            <ul class="menu">
-                <li class="menu__item"><a href="/about">О компании</a></li>
-                <li class="menu__item"><a href="/services">Услуги</a></li>
-                <li class="menu__item"><a href="/info">Информация</a></li>
-                <li class="menu__item"><a href="/news">Новости</a></li>
-                <li class="menu__item"><a href="/reviews">Отзывы</a></li>
-                <li class="menu__item"><a href="/contacts">Контакты</a></li>
-            </ul>
+        <div class="site-header_line2">
+            <div class="menu-top">
+                <ul class="menu">
+                    <li class="menu__item"><a href="/about">О компании</a></li>
+                    <li class="menu__item"><a href="/services">Услуги</a>
+                        <ul class="menu__item_child">
+                            <li class="menu__item menu__item_child__item"><a href="#">Присвоение условных номеров клеймения</a></li>
+                            <li class="menu__item menu__item_child__item"><a href="#">Аттестация цехов и ремонтных предприятий</a></li>
+                            <li class="menu__item menu__item_child__item"><a href="#">Сертификация железнодорожной продукции</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu__item"><a href="/info">Информация</a>
+                        <ul class="menu__item_child">
+                            <li class="menu__item menu__item_child__item"><a href="#">Документы</a></li>
+                            <li class="menu__item menu__item_child__item"><a href="#">Полезно знать</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu__item"><a href="/news">Новости</a></li>
+                    <li class="menu__item"><a href="/reviews">Отзывы</a></li>
+                    <li class="menu__item"><a href="/contacts">Контакты</a></li>
+                </ul>
+            </div>
         </div>
     </div>
 </header><!-- #site-header -->
