@@ -16,46 +16,18 @@
 
 				<div class="section-inner">
 
-					<div class="footer-credits">
 
-						<p class="footer-copyright">&copy;
-							<?php
-							echo date_i18n(
-								/* translators: Copyright date format, see https://secure.php.net/date */
-								_x( 'Y', 'copyright date format', 'twentytwenty' )
-							);
-							?>
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
-						</p><!-- .footer-copyright -->
 
-						<p class="powered-by-wordpress">
-							<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentytwenty' ) ); ?>">
-								<?php _e( 'Powered by WordPress', 'twentytwenty' ); ?>
-							</a>
-						</p><!-- .powered-by-wordpress -->
 
-					</div><!-- .footer-credits -->
-
-					<a class="to-the-top" href="#site-header">
-						<span class="to-the-top-long">
-							<?php
-							/* translators: %s: HTML character for up arrow */
-							printf( __( 'To the top %s', 'twentytwenty' ), '<span class="arrow" aria-hidden="true">&uarr;</span>' );
-							?>
-						</span><!-- .to-the-top-long -->
-						<span class="to-the-top-short">
-							<?php
-							/* translators: %s: HTML character for up arrow */
-							printf( __( 'Up %s', 'twentytwenty' ), '<span class="arrow" aria-hidden="true">&uarr;</span>' );
-							?>
-						</span><!-- .to-the-top-short -->
-					</a><!-- .to-the-top -->
 
 				</div><!-- .section-inner -->
 
 			</footer><!-- #site-footer -->
 
 		<?php wp_footer(); ?>
-
+<script src="/wp-content/themes/jd/assets/js/modernizr-3.7.1.min.js"></script>
+<script>window.jQuery || document.write('<script src="/wp-content/themes/jd/assets/js/jquery-3.4.1.min.js"><\/script>')</script>
+<script src="/wp-content/themes/jd/assets/js/stellarnav.min.js"></script>
+<script src="/wp-content/themes/jd/assets/js/main.js"></script>
 	</body>
 </html>

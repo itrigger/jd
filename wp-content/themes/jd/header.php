@@ -23,6 +23,8 @@
     <?php wp_head(); ?>
 
     <link rel="stylesheet" href="/wp-content/themes/jd/assets/css/screen.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,600,600i,700i&display=swap&subset=cyrillic" rel="stylesheet">
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -50,20 +52,20 @@ wp_body_open();
             </div>
         </div>
         <div class="site-header_line2">
-            <div class="menu-top">
+            <div class="menu-top stellarnav">
                 <ul class="menu">
                     <li class="menu__item"><a href="/about">О компании</a></li>
-                    <li class="menu__item"><a href="/services">Услуги</a>
+                    <li class="menu__item has-child"><a href="/services">Услуги</a>
                         <ul class="menu__item_child">
-                            <li class="menu__item menu__item_child__item"><a href="#">Присвоение условных номеров клеймения</a></li>
-                            <li class="menu__item menu__item_child__item"><a href="#">Аттестация цехов и ремонтных предприятий</a></li>
-                            <li class="menu__item menu__item_child__item"><a href="#">Сертификация железнодорожной продукции</a></li>
+                            <li class="menu__item_child__item"><a href="#">Присвоение условных номеров клеймения</a></li>
+                            <li class="menu__item_child__item"><a href="#">Аттестация цехов и ремонтных предприятий</a></li>
+                            <li class="menu__item_child__item"><a href="#">Сертификация железнодорожной продукции</a></li>
                         </ul>
                     </li>
-                    <li class="menu__item"><a href="/info">Информация</a>
+                    <li class="menu__item has-child"><a href="/info">Информация</a>
                         <ul class="menu__item_child">
-                            <li class="menu__item menu__item_child__item"><a href="#">Документы</a></li>
-                            <li class="menu__item menu__item_child__item"><a href="#">Полезно знать</a></li>
+                            <li class="menu__item_child__item"><a href="#">Документы</a></li>
+                            <li class="menu__item_child__item"><a href="#">Полезно знать</a></li>
                         </ul>
                     </li>
                     <li class="menu__item"><a href="/news">Новости</a></li>

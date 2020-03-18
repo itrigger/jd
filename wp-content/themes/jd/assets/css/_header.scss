@@ -1,14 +1,17 @@
 .site-header{
  display: flex;
+  color: #3C3C3C;
 }
 .site-header_line1{
   display: flex;
 }
 .site-header_line2{
   display: flex;
+  margin-left: 97px;
+  border-top: 1px solid #C6E5D8;
 }
 .header-logo-wrap{
-
+  margin-top: 17px;
 }
 .header-logo-wrap__logo{
   display: block;
@@ -19,25 +22,44 @@
 }
 .header-slogan{
   font-style: italic;
+  font-weight: 600;
+  color: #787878;
+  font-size: 14px;
+  margin-left: 46px;
+  margin-top: 48px;
 }
+  .tel{
+    font-weight: 600;
+    font-size: 16px;
+    a{
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+  .mail{
+    a{
+      text-decoration: none;
+      color: inherit;
+    }
+  }
 .header-contact-wrap{
   margin-left: auto;
   display: flex;
-}
-.menu{
-  display: flex;
-  position: relative;
-}
-.menu__item_child{
-  position: absolute;
-  top: 0;
-  padding-top: 2.5rem;
-  pointer-events: none;
-  z-index: 1;
-  opacity: 0;
-  transition: 0.3s all;
-}
-  .menu__item:hover .menu__item_child{
-    pointer-events: auto;
-    opacity: 1;
+  .tel{
+    margin-top: 45px;
+    margin-right: 43px;
   }
+  .mail{
+    margin-top: 45px;
+    margin-right: 35px;
+  }
+}
+.header-contact-wrap__btn-w{
+  margin-top: 29px;
+  .btn{
+    margin-right: 12px;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+}
