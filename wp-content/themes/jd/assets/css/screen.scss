@@ -1,5 +1,7 @@
 @import '_typo';
 @import '_buttons';
+@import '_form';
+@import '_support';
 @import '_menu';
 @import '_header';
 
@@ -12,6 +14,7 @@ body{
   width: 100%;
   max-width: 1546px;
   padding: 0 40px;
+  margin: 0 auto;
 }
 
 /*block 1*/
@@ -26,7 +29,7 @@ body{
     content: '';
     display: block;
     position: absolute;
-    bottom: 0;
+    bottom: -14px;
     width: 100%;
     height: 368px;
     background: url('../images/svg/vagon.svg') 37% 0 no-repeat;
@@ -45,3 +48,89 @@ body{
     background-size: contain;
   }
 }
+
+.block-1-video{
+  position: relative;
+  z-index: 2;
+  margin: 67px auto 0;
+  display: inline-block;
+}
+
+/*block-2*/
+.block-2{
+  position: relative;
+  .pattern-block{
+    top: -85px;
+  }
+  .pattern-form{
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(#C6E5D8,0.4);
+  }
+}
+  .pattern-block{
+    border-radius: 10px;
+    position: relative;
+    margin-left: -40px;
+    margin-right: -40px;
+    padding: 32px 40px;
+    background: linear-gradient(90deg, rgba(0,108,147,1) 0%, rgba(67,151,151,1) 100%);
+    height: 517px;
+    &:before{
+      content: '';
+      display: block;
+      position: absolute;
+      top:0;
+      bottom:0;
+      left:0;
+      right:0;
+      background: url("../images/svg/pattern.svg") 0 0 repeat;
+      background-size: 40px 55px;
+      opacity: 0.5;
+      z-index: 1;
+    }
+    .pattern-block__header{
+      color: #fff;
+      font-size: 26px;
+      margin-bottom: 20px;
+    }
+    .pattern-block__in{
+      position: relative;
+      z-index: 2;
+    }
+  }
+  .pattern-form{
+    .form{display: flex;border-radius:5px;border:1px solid #CACCCD;background: #fff;}
+    input[type=text]{
+      width: 326px;
+      border-left: 1px solid #CACCCD;
+      background: transparent;
+    }
+    .form-input:first-child{
+      input[type=text]{
+        border-left: none;
+      }
+    }
+  }
+  .label-conf{
+    padding-left: 26px;
+    font-size: 13px;
+    color: #fff;
+    position: relative;
+    span{
+      display: block;
+    }
+    &:before{
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 17px;
+      height: 19px;
+      background: url('../images/svg/shield.svg') 0 0 no-repeat;
+      background-size: contain;
+    }
+  }
+  .pattern-block__in .label-conf{
+    margin: 17px 0 0 20px;
+  }
