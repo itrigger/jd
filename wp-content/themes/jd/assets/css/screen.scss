@@ -72,7 +72,7 @@ body{
     position: relative;
     margin-left: -40px;
     margin-right: -40px;
-    padding: 32px 40px;
+    padding: 32px 40px 0;
     background: linear-gradient(90deg, rgba(0,108,147,1) 0%, rgba(67,151,151,1) 100%);
     height: 517px;
     &:before{
@@ -134,3 +134,91 @@ body{
   .pattern-block__in .label-conf{
     margin: 17px 0 0 20px;
   }
+  .quote-block{
+    color: #fff;
+  }
+    .quote-block__title{
+      margin-top: 65px;
+      position: relative;
+      z-index: 1;
+      .name{
+        font-style: italic;
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 3px;
+      }
+      .title{
+        font-size: 16px;
+        font-style: italic;
+      }
+    }
+
+    .social-links{
+      border-top: 1px solid rgba(#C6E5D8,0.4);
+      display: inline-block;
+      padding-top: 15px;
+      a{
+        margin-right: 17px;
+        &:last-child{
+          margin-right: 0;
+        }
+      }
+    }
+    .quote-block__title .social-links{
+      margin-top: 15px;
+    }
+    .vk{
+      display: inline-block;
+      width: 24px;
+      height: 13px;
+      background-size: contain;
+      background: url('../images/svg/vk-white.svg') 0 0 no-repeat;
+    }
+    .fb{
+      display: inline-block;
+      width: 11px;
+      height: 20px;
+      background-size: contain;
+      background: url('../images/svg/fb-white.svg') 0 0 no-repeat;
+    }
+    .ig{
+      display: inline-block;
+      width: 19px;
+      height: 18px;
+      background-size: contain;
+      background: url('../images/svg/ig-white.svg') 0 0 no-repeat;
+    }
+    .quote-block__image{
+      width: 433px;
+      height: 297px;
+      background: url('../images/svg/man.svg') 0 0 no-repeat;
+      background-size: cover;
+      margin-top: 41px;
+      margin-left: -170px;
+    }
+    .quote-block__quote{
+      margin-top: 65px;
+      max-width: 775px;
+      padding-left: 170px;
+      position: relative;
+      margin-left: 70px;
+      &:before{
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 135px;
+        height: 111px;
+        background-size: contain;
+        background: url("../images/svg/quote.svg") 0 0 no-repeat;
+      }
+      p{
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 15px;
+      }
+    }
+    .quote-block .flex-wrap{
+      justify-content: flex-start;
+    }
