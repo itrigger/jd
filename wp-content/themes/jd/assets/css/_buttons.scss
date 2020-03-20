@@ -27,7 +27,11 @@
   }
 }
 .btn-gray{
-
+  background: #4C4C4C;
+  border: 1px solid #939393;
+  &:hover{
+    background: #545454;
+  }
 }
 .btn-yellow, input[type=submit]{
   font-size: 16px;

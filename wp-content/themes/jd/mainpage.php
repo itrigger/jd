@@ -134,8 +134,6 @@ get_header();
                 </div>
             </div>
         </div>
-
-        <br> <br> <br> <br> <br> <br> <br> <br> <br>
     </div>
 
 <?php

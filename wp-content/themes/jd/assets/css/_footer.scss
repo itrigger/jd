@@ -1,0 +1,124 @@
+
+.site-footer {
+  color: #fff;
+  background: #4C4C4C;
+  position: relative;
+
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    background: url('../images/svg/pattern.svg') repeat;
+    background-size: 40px 55px;
+    opacity: 0.3;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .line1 {
+    position: relative;
+    padding-top: 32px;
+    z-index: 2;
+    padding-bottom: 45px;
+  }
+  .line2{
+    background: #3C3C3C;
+    font-size: 13px;
+    color: #9E9E9E;
+    padding: 28px 0;
+    position: relative;
+    z-index: 2;
+  }
+}
+
+.header-footer-group__flex-wrap {
+  justify-content: space-between;
+}
+
+.foot-block__header {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-bottom: 7px;
+  margin-bottom: 9px;
+  font-style: italic;
+  text-transform: uppercase;
+  position: relative;
+
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 42px;
+    height: 1px;
+    background: #9E9E9E;
+  }
+}
+
+.foot-block__desc {
+  font-size: 15px;
+}
+
+.foot-block__1 {
+  max-width: 287px;
+}
+
+.foot-block__2 {
+  min-width: 560px;
+
+  .flex-wrap {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -19px;
+  }
+}
+
+.foot-block__3 {
+  min-width: 214px;
+}
+
+.foot-block__contact-if {
+  font-size: 16px;
+  font-weight: 600;
+
+  a {
+    font-size: inherit;
+    font-weight: inherit;
+    text-decoration: none;
+    color: inherit;
+  }
+}
+.footer-footer-group__flex-wrap{
+  justify-content: space-between;
+}
+.maslogo{
+  margin-right: 5%;
+}
+.maslogo a{
+  color: #9E9E9E;
+  font-size: 13px;
+  position: relative;
+  text-decoration: none;
+  padding-right: 145px;
+  span{
+    border-bottom: 1px solid rgba(#9E9E9E,0.4);
+  }
+  &:hover span{
+    border-bottom: 1px solid rgba(#9E9E9E,0.2);
+  }
+  &:after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: -9px;
+    right: 0;
+    width: 136px;
+    height: 32px;
+    background: url('../images/svg/maslogo.svg') 0 0 no-repeat;
+    background-size: contain;
+  }
+}
