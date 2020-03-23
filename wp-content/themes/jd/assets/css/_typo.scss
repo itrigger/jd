@@ -1,11 +1,70 @@
 h1{
   font-weight: 700;
   font-style: italic;
-  font-size: 44px;
+  font-size: 65px;
   line-height: 1;
 }
 h2{
+  font-weight: 700;
+  font-style: italic;
+  font-size: 44px;
+  line-height: 1;
+}
+h3{
   font-size: 40px;
   font-style: italic;
   font-weight:600;
+}
+h4{
+  font-size: 29px;
+  font-weight:600;
+  margin-bottom: 20px;
+}
+  .header_maxwidth70{
+    max-width:70%;
+  }
+.in-content a{
+  color: #000000;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(#000000,0.4);
+  &:hover{
+    border-bottom: 1px solid rgba(#000000,0.2);
+  }
+}
+.in-content h1{
+  margin-bottom: 60px;
+}
+header.ico-doc:before {
+  content: 'DOC';
+  color: #fff;
+  background: #011ce4;
+  border: 1px solid #011ce4;
+  font-size: 10px;
+  line-height: 13px;
+  font-family: inherit;
+  position: absolute;
+  top: -25px;
+  left: 0;
+  width: 30px;
+  height: 17px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 2px;
+}
+header.ico-pdf:before {
+  content: 'PDF';
+  color: #fff;
+  background: #E40027;
+  border: 1px solid #E40027;
+  font-size: 10px;
+  line-height: 13px;
+  font-family: inherit;
+  position: absolute;
+  top: -25px;
+  left: 0;
+  width: 30px;
+  height: 17px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 2px;
 }

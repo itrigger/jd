@@ -8,4 +8,53 @@
     padding: 23px 20px;
     border: none;
   }
+  textarea{
+    padding: 23px 20px;
+    font-size: 14px;
+    color: #9E9E9E;
+    border: none;
+    font-family: inherit;
+  }
+}
+
+.contact-form-block{
+  background: #f7f7f7;
+  padding: 37px;
+  border-radius: 10px;
+  .form_w{
+    width: 920px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #cacccd;
+    border-radius: 5px;
+    overflow: hidden;
+    .w50 input{
+      border-bottom: 1px solid #cacccd;
+    }
+    .w50:first-child input{
+      border-right: 1px solid #cacccd;
+    }
+  }
+  form{
+    display: flex;
+    input[type=text], input[type=tel]{
+      width: 100%;
+    }
+    textarea{
+      width: 100%;
+      resize: none;
+    }
+    .btn{
+
+    }
+  }
+  .w50{
+
+  }
+  .label-conf{
+    color: #787878;
+  }
+  .label-conf:before{
+    background: url(../images/svg/shield2.svg) 0 0 no-repeat;
+  }
 }

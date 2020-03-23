@@ -9,7 +9,7 @@ get_header();
     <div class="wrapper">
         <div class="block-1">
             <div class="in">
-                <h1>Регистрация железнодорожного подвижного состава</h1>
+                <h2>Регистрация железнодорожного подвижного состава</h2>
                 <div class="block-1-video">
                     <a href="#" class="btn-video"></a>
                 </div>
@@ -69,7 +69,7 @@ get_header();
         </div>
         <div class="block-3">
             <div class="in">
-                <h2 class="block-3__h2">Три шага регистрации подвижного состава</h2>
+                <h3 class="block-3__h2">Три шага регистрации подвижного состава</h3>
             </div>
             <div class="mp-block-desc mp-block-desc__1">
                 <div class="in">

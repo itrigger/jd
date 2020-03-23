@@ -64,8 +64,8 @@ wp_body_open();
                     </li>
                     <li class="menu__item has-child"><a href="/info">Информация</a>
                         <ul class="menu__item_child">
-                            <li class="menu__item_child__item"><a href="#">Документы</a></li>
-                            <li class="menu__item_child__item"><a href="#">Полезно знать</a></li>
+                            <li class="menu__item_child__item"><a href="/docs">Документы</a></li>
+                            <li class="menu__item_child__item"><a href="/">Полезно знать</a></li>
                         </ul>
                     </li>
                     <li class="menu__item"><a href="/news">Новости</a></li>

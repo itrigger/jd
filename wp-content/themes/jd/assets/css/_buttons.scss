@@ -11,19 +11,25 @@
     color: #fff;
   }
 }
-.btn-solid{
-  background: linear-gradient(0deg, rgba(0,108,147,1) 0%, rgba(67,151,151,1) 100%);
-  border: 1px solid transparent;
-  &:hover{
-    background: #439797;
-  }
-}
+
 .btn-alpha{
-  color: #006C93;
+  color: #006c93 !important;
   border: 1px solid #006C93;
+  transition: 0.2s all;
   &:hover{
+    color: #fff !important;
     background: #439797;
     border-color: #439797;
+    transition: 0.2s all;
+  }
+}
+.btn-alpha-grad{
+  color: #006c93 !important;
+  border: 1px solid #006C93;
+  &:hover{
+    color: #fff !important;
+    background: linear-gradient(0deg, rgba(0,108,147,1) 0%, rgba(67,151,151,1) 100%);
+    border: 1px solid transparent;
   }
 }
 .btn-gray{
@@ -36,16 +42,30 @@
 .btn-yellow, input[type=submit]{
   font-size: 16px;
   background: #FF9D00;
-  border: none;
+  border: 1px solid #FF9D00 !important;
   border-radius: 4px;
   padding: 20px 44px 24px;
-  color: #fff;
+  color: #fff !important;
   font-weight: 600;
   cursor: pointer;
   box-shadow: 1px 1px 10px rgba(#FF9D00,0.5);
   &:hover{
     background: #FFAD36;
   }
+}
+.btn-solid, .contact-form-block input[type=submit]{
+  background: linear-gradient(0deg, rgba(0,108,147,1) 0%, rgba(67,151,151,1) 100%);
+  border: 1px solid transparent;
+  &:hover{
+    background: #439797;
+  }
+}
+.contact-form-block input[type=submit]{
+  font-weight: 600;
+  font-size: 13px;
+  padding: 18px 23px 20px;
+  border: none !important;
+  box-shadow: none;
 }
 .btn-video{
   display: block;
@@ -56,6 +76,18 @@
   &:hover{
     transform: scale(1.15);
     transition: 0.3s all;
+  }
+}
+
+
+.button-group{
+  border-top: 2px solid #f7f7f7;
+  padding: 25px 0 30px;
+  border-bottom: 2px solid #f7f7f7;
+  .btn{
+    padding: 18px 23px 20px;
+    margin-right: 15px;
+    font-size: 13px;
   }
 }
 
