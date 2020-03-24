@@ -66,6 +66,7 @@
 <script src="/wp-content/themes/jd/assets/js/modernizr-3.7.1.min.js"></script>
 <script>window.jQuery || document.write('<script src="/wp-content/themes/jd/assets/js/jquery-3.4.1.min.js"><\/script>')</script>
 <script src="/wp-content/themes/jd/assets/js/stellarnav.min.js"></script>
+<script src="/wp-content/themes/jd/assets/js/owl.carousel.min.js"></script>
 <script src="/wp-content/themes/jd/assets/js/main.js"></script>
 </body>
 </html>
